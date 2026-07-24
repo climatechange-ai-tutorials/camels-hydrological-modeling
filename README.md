@@ -6,6 +6,7 @@ Authors:
 * Arvind Renganathan, University of Minnesota, renga016@umn.edu
 * Siyan Liu, Oak Ridge National Labs, lius1@ornl.gov
 * Dan Lu, Oak Ridge National Labs, lud1@ornl.gov
+* Puja Das, Massachusetts Institute of Technology, puja_das@mit.edu
 
 Originally presented at ICLR 2024
 
@@ -14,10 +15,6 @@ Originally presented at ICLR 2024
 We recommend executing this notebook in a Colab environment to gain access to GPUs and to manage all necessary dependencies. <a target="_blank" href="https://colab.research.google.com/github/climatechange-ai-tutorials/camels-hydrological-modeling/blob/main/Planning_For_Floods_&_Droughts_Intro_To_AI_Driven_Hydrological_Modeling.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-
-Estimated time to execute end-to-end: 20 minutes
-
-Data used in this tutorial is available at https://doi.org/10.5281/zenodo.14612905
 
 ## Contribute to this tutorial
 
@@ -34,15 +31,15 @@ Usage of this tutorial is subject to the MIT License.
 ## Cite
 
 ### Plain Text
-Tayal, K., Renganathan, A., Liu, S., & Lu, D. (2024). Planning for Floods & Droughts: Intro to AI-Driven Hydrological Modeling [Tutorial]. In International Conference on Learning Representations. Climate Change AI. https://doi.org/10.5281/zenodo.14612905
+Tayal, K., Renganathan, A., Liu, S., Lu, D., & Das, P. (2026). Planning for Floods & Droughts: Intro to AI-Driven Hydrological Modeling [Tutorial]. In International Conference on Learning Representations. Climate Change AI. https://doi.org/10.5281/zenodo.14612905
 
 ### BibTeX
 
 ```
-@misc{tayal2024planning,
+@misc{tayal2026planning,
   title={Planning for Floods & Droughts: Intro to AI-Driven Hydrological Modeling},
-  author={Tayal, Kshitij and Renganathan, Arvind and Liu, Siyan and Lu, Dan},
-  year={2024},
+  author={Tayal, Kshitij and Renganathan, Arvind and Liu, Siyan and Lu, Dan and Das, Puja},
+  year={2026},
   organization={Climate Change AI},
   type={Tutorial},
   doi={https://doi.org/10.5281/zenodo.14612905},
