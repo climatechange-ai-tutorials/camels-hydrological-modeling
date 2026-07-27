@@ -1,0 +1,35 @@
+# "Planning for Floods & Droughts" notebook end-to-end, including the codecarbon
+# tracking cell and the UQnet/PI3NN uncertainty quantification section.
+#
+# Only packages the notebook actually imports (directly, or via its `!pip install`
+# cell / `!git clone` + script call) are kept.
+
+# ---- Core data handling & visualization ----
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# ---- Data download utilities ----
+gdown==5.2.0
+requests==2.32.4
+
+# ---- Deep learning (PyTorch) ----
+# Installed from the PyTorch CPU wheel index in this environment, not PyPI directly.
+# If installing from PyPI instead, use: pip install torch==2.11.0
+torch==2.11.0
+
+# ---- Progress bars ----
+tqdm==4.67.3
+
+# ---- Energy / carbon emissions tracking ----
+codecarbon==2.8.4
+
+# ---- Uncertainty quantification (PI3NN / UQnet section) ----
+# Used by ./UQnet/main_PI3NN.py, cloned from https://github.com/liusiyan/UQnet.git
+tensorflow==2.20.0
+scikit-learn==1.6.1
+
+# ---- Notebook / display environment ----
+# Used for IPython.display.YouTubeVideo in the intro videos cell
+ipython==7.34.0
